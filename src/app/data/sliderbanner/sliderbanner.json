@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Healing With Heart And Science.",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ducimus labore rem repudiandae beatae unde.",
+        "thumb": "/img/banner/01.jpg",
+        "bg": "/img/banner/01.jpg",
+        "btnText": "Make an Appointment",
+        "btnLink": "/contact"
+    },
+    {
+        "title": "Your one source for health",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ducimus labore rem repudiandae beatae unde.",
+        "thumb": "/img/banner/02.jpg",
+        "bg": "/img/banner/02.jpg",
+        "btnText": "Our departments",
+        "btnLink": "/departments"
+    }
+]

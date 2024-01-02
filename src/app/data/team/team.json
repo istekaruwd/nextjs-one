@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Dr. Naidan Smith",
+        "designation": "Pediatrician",
+        "thumb": "/img/team/01.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinUrl": "/",
+        "instagramUrl": "/"
+    },
+    {
+        "name": "Dr. Michael Johnson",
+        "designation": "Cardiologist",
+        "thumb": "/img/team/02.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinUrl": "/",
+        "instagramUrl": "/"
+    },
+    {
+        "name": "Dr. David Nguyen",
+        "designation": "Psychiatrist",
+        "thumb": "/img/team/03.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinUrl": "/",
+        "instagramUrl": "/"
+    },
+    {
+        "name": "Dr. Michelle Kim",
+        "designation": "Neurology",
+        "thumb": "/img/team/04.jpg",
+        "facebookUrl": "/",
+        "twitterUrl": "/",
+        "linkedinUrl": "/",
+        "instagramUrl": "/"
+    }
+]

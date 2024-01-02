@@ -1,0 +1,17 @@
+[
+    {
+        "heading": "Emergency Cases",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "icon": "/img/feature/01.png"
+    },
+    {
+        "heading": "Urgent Care",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "icon": "/img/feature/02.png"
+    },
+    {
+        "heading": "Cardio Safety",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "icon": "/img/feature/03.png"
+    }
+]

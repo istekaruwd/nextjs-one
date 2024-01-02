@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "planName": "Basic Plan",
+        "recommended": false,
+        "currencyType": "$",
+        "planPrice": "100",
+        "subscribePlan": "/Per Month",
+        "btnText": "Order now",
+        "btnLink": "/contact",
+        "planFeatures": [
+            {
+                "list": "Discounts on Treatments",
+                "active": true
+            },
+            {
+                "list": "Annual Health Assessment",
+                "active": true
+            },
+            {
+                "list": "24/7 Medical Advice",
+                "active": true
+            },
+            {
+                "list": "Reduced Vaccination Costs",
+                "active": false
+            },
+            {
+                "list": "Whole Family Coverage",
+                "active": false
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "planName": "Advanced Plan",
+        "recommended": true,
+        "currencyType": "$",
+        "planPrice": "200",
+        "subscribePlan": "/Per Month",
+        "btnText": "Order now",
+        "btnLink": "/contact",
+        "planFeatures": [
+            {
+                "list": "Discounts on Treatments",
+                "active": true
+            },
+            {
+                "list": "Annual Health Assessment",
+                "active": true
+            },
+            {
+                "list": "24/7 Medical Advice",
+                "active": true
+            },
+            {
+                "list": "Reduced Vaccination Costs",
+                "active": true
+            },
+            {
+                "list": "Whole Family Coverage",
+                "active": false
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "planName": "Premium Plan",
+        "recommended": false,
+        "currencyType": "$",
+        "planPrice": "500",
+        "subscribePlan": "/Per Years",
+        "btnText": "Order now",
+        "btnLink": "/contact",
+        "planFeatures": [
+            {
+                "list": "Discounts on Treatments",
+                "active": true
+            },
+            {
+                "list": "Annual Health Assessment",
+                "active": true
+            },
+            {
+                "list": "24/7 Medical Advice",
+                "active": true
+            },
+            {
+                "list": "Reduced Vaccination Costs",
+                "active": true
+            },
+            {
+                "list": "Whole Family Coverage",
+                "active": true
+            }
+        ]
+    }
+]

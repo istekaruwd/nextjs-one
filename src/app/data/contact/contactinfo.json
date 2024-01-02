@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Location:",
+        "info": "312 Catron St, New York",
+        "link": "/",
+        "icon": "/img/contact/icon-03.png"
+    },
+    {
+        "name": "Email us:",
+        "info": "info@medies.com",
+        "link": "/",
+        "icon": "/img/contact/icon-02.png"
+    },
+    {
+        "name": "Call us:",
+        "info": "789-456-0123",
+        "link": "/",
+        "icon": "/img/contact/icon-01.png"
+    }
+]

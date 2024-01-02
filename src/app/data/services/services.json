@@ -1,0 +1,50 @@
+[
+    {
+        "number": "01",
+        "heading": "Primary Care",
+        "slug": "primary-care",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/01.jpg",
+        "icon": "/img/services/icon-01.png"
+    },
+    {
+        "number": "02",
+        "heading": "Diagnostic testing",
+        "slug": "diagnostic-testing",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/02.jpg",
+        "icon": "/img/services/icon-02.png"
+    },
+    {
+        "number": "03",
+        "heading": "Rehabilitation service",
+        "slug": "rehabilitation-service",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/03.jpg",
+        "icon": "/img/services/icon-03.png"
+    },
+    {
+        "number": "04",
+        "heading": "Preventive care",
+        "slug": "preventive-care",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/04.jpg",
+        "icon": "/img/services/icon-04.png"
+    },
+    {
+        "number": "05",
+        "heading": "Mental health service",
+        "slug": "mental-health-service",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/05.jpg",
+        "icon": "/img/services/icon-05.png"
+    },
+    {
+        "number": "06",
+        "heading": "Transplant service",
+        "slug": "transplant-service",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente libero assumenda, delectus repudiandae voluptas.",
+        "thumb": "/img/services/06.jpg",
+        "icon": "/img/services/icon-06.png"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "department": "Emergency",
+        "title": "Emergency Department",
+        "slug": "emergency-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/01.jpg",
+        "icon": "/img/departments/icon-01.png"
+    },
+    {
+        "id": 2,
+        "department": "Pediatric",
+        "title": "Pediatric Department",
+        "slug": "pediatric-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/02.jpg",
+        "icon": "/img/departments/icon-02.png"
+    },
+    {
+        "id": 3,
+        "department": "Gynecology",
+        "title": "Gynecology Department",
+        "slug": "gynecology-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/03.jpg",
+        "icon": "/img/departments/icon-03.png"
+    },
+    {
+        "id": 4,
+        "department": "Cardiology",
+        "title": "Cardiology Department",
+        "slug": "cardiology-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/04.jpg",
+        "icon": "/img/departments/icon-04.png"
+    },
+    {
+        "id": 5,
+        "department": "Neurology",
+        "title": "Neurology Department",
+        "slug": "neurology-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/05.jpg",
+        "icon": "/img/departments/icon-05.png"
+    },
+    {
+        "id": 6,
+        "department": "Psychiatry",
+        "title": "Psychiatry Department",
+        "slug": "psychiatry-department",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor voluptatem odit ullam aut hic dicta ipsam vitae maiores neque, similique provident accusamus iusto reiciendis sint. Quam, tempore. Amet, maxime.",
+        "buttonText": "Details",
+        "thumb": "/img/departments/06.jpg",
+        "icon": "/img/departments/icon-06.png"
+    }
+]

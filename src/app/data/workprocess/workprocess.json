@@ -1,0 +1,26 @@
+[
+    {
+        "number": "01",
+        "heading": "Patient registration",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "thumb": "/img/work-process/01.jpg"
+    },
+    {
+        "number": "02",
+        "heading": "Check-ups",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "thumb": "/img/work-process/02.jpg"
+    },
+    {
+        "number": "03",
+        "heading": "Get report",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "thumb": "/img/work-process/03.jpg"
+    },
+    {
+        "number": "04",
+        "heading": "Ongoing care",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "thumb": "/img/work-process/04.jpg"
+    }
+]

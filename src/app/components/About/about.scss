@@ -1,0 +1,186 @@
+.about-img-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 65%;
+        width: 100%;
+        border: 5px solid var(--primary);
+        z-index: -1;
+    }
+}
+.about-exp {
+    position: absolute;
+    width: 235px;
+    aspect-ratio: 1 / 1;
+    background-color: var(--border-colour);
+    right: 5%;
+    bottom: 5%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    &:after,
+    &:before {
+        content: '';
+        position: absolute;
+    }
+
+    &:before {
+        width: 150px;
+        height: 150%;
+        background-image: linear-gradient(var(--primary) 50%, var(--black) 50%);
+        animation: spin 4s linear infinite;
+    }
+
+    &:after {
+        background-color: var(--white);
+        inset: 5px;
+        border-radius: 50%;
+    }
+
+    h6 {
+        font-weight: 300;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1;
+    }
+}
+.about-counter {
+    font-size: 48px;
+    line-height: 1;
+    color: var(--primary);
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.about-counter svg {
+    animation: beat 2s linear infinite;
+}
+.about-img {
+    width: 70%;
+    aspect-ratio: 1 / 1.5;
+
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.about-txt {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    h2 {
+        text-transform: capitalize;
+        font-size: 60px;
+    }
+}
+.about-list {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+
+    svg {
+        font-size: 60px;
+        color: var(--primary);
+        flex-shrink: 0;
+    }
+}
+.about-list-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-txt {
+        h2 {
+            font-size: 36px;
+        }
+    }
+    .about-list {
+        svg {
+            font-size: 36px;
+        }
+    }
+    .about-list-txt {
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .about-img {
+        width: 80%;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-txt {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 36px;
+        }
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .about-txt {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 36px;
+        }
+    }
+    .about-list {
+        gap: 15px;
+
+        svg {
+            font-size: 30px;
+        }
+    }
+    .about-exp {
+        width: 200px;
+
+        h6 {
+            font-size: 14px;
+        }
+    }
+    .about-counter {
+        font-size: 36px;
+    }
+    .about-img {
+        width: 85%;
+    }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}

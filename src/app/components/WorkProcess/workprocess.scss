@@ -1,0 +1,111 @@
+.work-process-area {
+    background-image: linear-gradient(
+        var(--primary) 50%,
+        var(--section-background) 50%
+    );
+}
+.work-process-items {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 90%;
+        border-bottom: 2px dashed var(--black);
+        left: 5%;
+        top: 50%;
+        z-index: 1;
+    }
+}
+.single-work-process {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+
+    h3 {
+        text-transform: capitalize;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+.work-process-thumb {
+    width: 210px;
+    aspect-ratio: 1 / 1;
+
+    position: relative;
+
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        border: 5px solid var(--primary);
+    }
+
+    .process-num {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 40px;
+        aspect-ratio: 1 / 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--black);
+        color: var(--white);
+        font-size: 18px;
+        border-radius: 50%;
+        animation: beat 2s linear infinite;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .work-process-items:before {
+        top: 45%;
+    }
+    .single-work-process {
+        h3 {
+            font-size: 22px;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-work-process {
+        background-color: var(--white);
+        padding: 30px;
+        border-radius: 50px;
+    }
+    .work-process-items:before {
+        height: 90%;
+        width: 0;
+        border-bottom: 0;
+        border-right: 2px dashed var(--black);
+        top: 5%;
+        left: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .single-work-process {
+        background-color: var(--white);
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .work-process-items:before {
+        height: 90%;
+        width: 0;
+        border-bottom: 0;
+        border-right: 2px dashed var(--black);
+        top: 5%;
+        left: 50%;
+    }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}

@@ -1,0 +1,83 @@
+.funfact-area {
+    position: relative;
+    z-index: 1;
+
+    .funfact-bg {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.single-funfact {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    text-align: center;
+    border: 1px solid var(--white);
+    line-height: 1;
+
+    h3 {
+        text-transform: capitalize;
+        color: var(--white);
+        position: relative;
+        padding-top: 15px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 1px;
+            background-color: var(--primary);
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    .count {
+        font-size: 60px;
+        color: var(--white);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .single-funfact {
+        h3 {
+            font-size: 22px;
+        }
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .single-funfact {
+        h3 {
+            font-size: 18px;
+        }
+
+        .count {
+            font-size: 42px;
+        }
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-funfact {
+        .count {
+            font-size: 42px;
+        }
+    }
+    .single-funfact {
+        h3 {
+            font-size: 20px;
+        }
+    }
+}

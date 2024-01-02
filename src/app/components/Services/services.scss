@@ -1,0 +1,134 @@
+.services-area {
+    background-image: linear-gradient(
+        var(--primary) 58%,
+        var(--section-background) 50%
+    );
+}
+.services-carousel {
+    margin-top: 50px;
+}
+.single-service {
+    padding: 30px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+
+    h3 {
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+}
+.service-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    .service-icon-box {
+        width: 80px;
+        aspect-ratio: 1 / 1;
+        border-radius: 10px;
+        background-color: var(--white);
+        border: 1px solid var(--primary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        border-bottom: 2px dashed var(--border-colour);
+        transform: translateY(-50%);
+        width: 78%;
+        z-index: -1;
+    }
+}
+.service-number {
+    font-size: 36px;
+}
+.service-btn {
+    color: var(--primary);
+    font-size: 24px;
+    animation: beat 2s linear infinite;
+}
+
+/* navigation */
+
+.services-navigation {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.service-button-prev,
+.service-button-next {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.service-button-next {
+    background-color: var(--primary);
+
+    svg {
+        font-size: 36px;
+        fill: var(--white);
+    }
+}
+.service-button-prev {
+    background-color: var(--white);
+
+    svg {
+        font-size: 36px;
+        fill: var(--primary);
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .single-service {
+        h3 {
+            font-size: 20px;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .services-navigation {
+        margin-top: 50px;
+        flex-direction: row;
+    }
+    .service-button-next {
+        background-color: var(--white);
+
+        svg {
+            fill: var(--primary);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .single-service {
+        padding: 15px;
+    }
+    .services-navigation {
+        margin-top: 50px;
+        flex-direction: row;
+    }
+    .service-button-next {
+        background-color: var(--white);
+
+        svg {
+            fill: var(--primary);
+        }
+    }
+}

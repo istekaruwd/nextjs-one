@@ -1,0 +1,26 @@
+[
+    {
+        "counterNumber": 500,
+        "counterText": "Happy patients",
+        "mathSymbol": "+",
+        "icon": "/img/funfact/icon-01.png"
+    },
+    {
+        "counterNumber": 15,
+        "counterText": "Departments",
+        "mathSymbol": "+",
+        "icon": "/img/funfact/icon-02.png"
+    },
+    {
+        "counterNumber": 150,
+        "counterText": "Successful operation",
+        "mathSymbol": "+",
+        "icon": "/img/funfact/icon-03.png"
+    },
+    {
+        "counterNumber": 50,
+        "counterText": "Expert doctors",
+        "mathSymbol": "+",
+        "icon": "/img/funfact/icon-04.png"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "slug": "the-benefits-of-using-a-tongue-scraper",
+        "title": "The Benefits of Using a Tongue Scraper",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/01.jpg",
+        "singleThumb": "/img/blog/01.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "05 Dec 2023",
+        "comments": [
+            {
+                "commenterName": "Johnathan Doe",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "24 Dec 2024"
+            },
+            {
+                "commenterName": "Steven Johanson",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "25 Dec 2024"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "the-importance-of-mental-health",
+        "title": "The Importance of Mental Health",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/02.jpg",
+        "singleThumb": "/img/blog/02.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "06 Dec 2023",
+        "comments": [
+            {
+                "commenterName": "Johnathan Doe",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "26 Dec 2024"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "slug": "a-parents-guide-to-childhood-vaccinations",
+        "title": "A Parent's Guide to Childhood Vaccinations",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/03.jpg",
+        "singleThumb": "/img/blog/03.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "07 Dec 2023"
+    },
+    {
+        "id": 4,
+        "slug": "understanding-and-managing-diabetes",
+        "title": "Understanding and Managing Diabetes",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/04.jpg",
+        "singleThumb": "/img/blog/04.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "08 Dec 2023",
+        "comments": [
+            {
+                "commenterName": "Johnathan Doe",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "27 Dec 2024"
+            },
+            {
+                "commenterName": "Steven Johanson",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "28 Dec 2024"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "slug": "caring-for-your-skin",
+        "title": "Caring for Your Skin",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/05.jpg",
+        "singleThumb": "/img/blog/05.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "09 Dec 2023",
+        "comments": [
+            {
+                "commenterName": "Johnathan Doe",
+                "commenterThumb": "/img/blog/avator.png",
+                "commentText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, commodi.",
+                "commentDate": "29 Dec 2024"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "slug": "allergies-and-asthma",
+        "title": "Allergies and Asthma",
+        "excerpt": "Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Provident perspiciatis officia, harum, consectetur sit eveniet.",
+        "thumb": "/img/blog/06.jpg",
+        "singleThumb": "/img/blog/06.jpg",
+        "blogAuthor": "admin",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex odit amet, suscipit dolores. Expedita fugiat, perferendis hic pariatur at autem accusantium, itaque temporibus corporis cum praesentium possimus! Nam, in, necessitatibus!",
+        "publishDate": "10 Dec 2023"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Home",
+        "link": "/"
+    },
+    {
+        "title": "Pages",
+        "link": "/about",
+        "subMenu": [
+            {
+                "title": "About Us",
+                "link": "/about"
+            },
+            {
+                "title": "Our Gallery",
+                "link": "/gallery"
+            },
+            {
+                "title": "Our Doctors",
+                "link": "/doctors"
+            },
+            {
+                "title": "Pricing Plan",
+                "link": "/pricing"
+            }
+        ]
+    },
+    {
+        "title": "Services",
+        "link": "/services",
+        "subMenu": [
+            {
+                "title": "Our Services",
+                "link": "/services"
+            },
+            {
+                "title": "Single Services",
+                "link": "/services/primary-care"
+            }
+        ]
+    },
+    {
+        "title": "Departments",
+        "link": "/departments",
+        "subMenu": [
+            {
+                "title": "Our Departments",
+                "link": "/departments"
+            },
+            {
+                "title": "Single Departments",
+                "link": "/departments/emergency-department"
+            }
+        ]
+    },
+    {
+        "title": "Blog",
+        "link": "/blog",
+        "subMenu": [
+            {
+                "title": "Our Blog",
+                "link": "/blog"
+            },
+            {
+                "title": "Single Blog",
+                "link": "/blog/the-benefits-of-using-a-tongue-scraper"
+            }
+        ]
+    },
+    {
+        "title": "Contact",
+        "link": "/contact"
+    }
+]

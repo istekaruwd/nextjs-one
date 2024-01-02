@@ -53,6 +53,7 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    text-align: center;
 
     h3 {
         text-transform: uppercase;
@@ -147,7 +148,13 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-}
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .testimonial-meta {
+        h3 {
+            font-size: 16px;
+        }
+        h5 {
+            font-size: 16px;
+        }
+    }
 }
